@@ -1,0 +1,20 @@
+h1{
+    margin:auto;
+    text-align: center;
+    border-radius: 30%;
+    background-color: azure;
+    color: blue;
+}
+body{
+    background-color:black ;
+}
+.kepek{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0px;
+   
+}
+img{ width:100%;
+    text-align:center;
+    max-width: 500px; 
+}
