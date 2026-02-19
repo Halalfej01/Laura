@@ -18,3 +18,8 @@ img{ width:100%;
     text-align:center;
     max-width: 500px; 
 }
+@media screen and (max-width:500px){
+    .kepek{
+        grid-template-columns:1fr ;
+    }
+}
