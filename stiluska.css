@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  color: black;
+  border: solid blue;
+  background-color: blue;
+}
+
+.kepek {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  border: solid blue;
+  background-color: blue;
+  font-size: x-large;
+}
+a:hover {
+  color: blue;
+  border: solid red;
+  background-color: red;
+}
+nav {
+  text-align: center;
+}
+body {
+  background-color: black;
+}
+img{
+    max-width: 100%;
+}
+@media screen and (max-width:500px){
+    .kepek{grid-template-columns: 1fr;}
+}
+
